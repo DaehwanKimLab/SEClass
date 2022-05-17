@@ -5,7 +5,7 @@ Instructor: Daehwan Kim (Daehwan.Kim@UTSouthwestern.edu)
 
 Teaching assistants: Chanhee Park (Chanhee.Park@UTSouthwestern.edu) and Micah Thornton (Micah.Thornton@UTSouthwestern.edu).
 
-The class meets at 9am in ND11.218 from Monday (May 23rd) through Friday (May 27th).
+The class meets at 9am from May 23rd (Day 1) through May 27th (Day 5) in ND11.218.
 
 Office hours will be 2 - 4pm on each of Days 1-5 in E4.350.
 
