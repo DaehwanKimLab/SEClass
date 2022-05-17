@@ -1,0 +1,13 @@
+>checkpointed tallies matrix
+0 1 0 0 0 0 
+0 1 0 0 1 1 
+1 1 0 0 1 2 
+1 2 0 1 1 2 
+1 4 0 1 1 2 
+1 5 1 1 1 2 
+>subsampled suffix array
+10 0 8 4 6 2 
+>Burrows-Wheeler transform text
+ard$rcaaaabb
+>SA indexes kept
+010100101101
