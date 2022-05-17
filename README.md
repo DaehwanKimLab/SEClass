@@ -62,3 +62,13 @@ The deadlines for submitting code review assignments for Day 2, Day 3, Day 4, an
 ## Output Formats
 The output file formats are described as follows (to be filled by Micah).
 
+For each day we will assess the correctness of the output of the code.  Please produce codes which write 
+the results of the computation to a file on disk according to each of the following: 
+
+| | Input Format Description | Input Format Example | Output Format Description | Output Format Example | 
+| ----------- | ---------- | ----------- | ----------- | -------- | 
+| Day 1: SA Impl. | Input .fa file, single sequence multi-line, > for header | | A list of integers in txt format (label .sa) | |
+| Day 2: SA Search | Input .fa reference file (or input .sa from Day 1), and query fasta file (labeled .qfa) | | A tab-delimited file where each row contains query name and alignment location, multiple rows for the same query matching multiple locations. | |
+| Day 3: BWT Impl. | Input .fa reference file, input suffix array .sa | | text file containing burrows-wheeler transform text (with or without extra character) named *.bwt | |
+| Day 4: BWT Search | Input .bwt, input .sa | | A tab-delimited file where each row contains query name and alignment location, multiple rows for the same query matching multiple locations. | | 
+| Day 5: FM/Search Impl | | | | |
