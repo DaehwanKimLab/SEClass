@@ -22,7 +22,6 @@ We will provide relevant articles and slides that you can read on your own in or
 
 ## Day 1
 From 9 to 10am, we will provide a brief introduction to sequence alignment, suffix arrays, and a C++ coding environment. For the rest of the day, you will implement suffix arrays (SA) for two genomic sequences: a small 100-bp sequence and a large 51 million-bp long sequence (human chromosome 22).
-Optional: you can implement suffix trees.
  
 ## Day 2
 From 9 to 10am, we will provide a brief introduction to sequence alignment and have a Q&A session. For the rest of the day, you will implement an alignment algorithm using the suffix array. We will provide input sequencing reads and true output alignment, which you can use to test your alignment algorithm in terms of alignment accuracy and speed. You can also implement test cases and use assertions so that you can effectively identify and fix bugs in your code.
@@ -101,3 +100,6 @@ Each dataset contains a reference sequence, reads, and a position of read in the
 [genome.fa]:       https://cloud.biohpc.swmed.edu/index.php/s/SsnLjF92scW6FXH/download/genome.fa
 [genome_reads.fa]: https://cloud.biohpc.swmed.edu/index.php/s/sZWTFtLyD7J7TGx/download/genome_reads.fa
 [genome.aln]:      https://cloud.biohpc.swmed.edu/index.php/s/n4kgZJpcLjry7aj/download/genome.aln
+
+## Setting up environments
+
