@@ -73,3 +73,24 @@ the results of the computation to a file on disk according to each of the follow
 | Day 4: BWT Search | Input .bwt, input .sa, and queries file (.qfa) | [abracadabra.bwt](/Example_Files/abracadabra.bwt) and [abracadabra.sa](/Example_Files/abracadabra.sa) and [abracadabra.qfa](/Example_Files/abracadabra.qfa) | A tab-delimited file where each row contains query name and alignment location, multiple rows for the same query matching multiple locations. |[abracadabra.aln](/Example_Files/abracadabra.aln)  | 
 | Day 5 part 1: FM Index Impl. | Input .bwt, input .sa | [abracadabra.bwt](/Example_Files/abracadabra.bwt) and [abracadabra.sa](/Example_Files/abracadabra.sa) and commandline options for (1) number of rows to skip in checkpointed tally matrix and (2) number of values to skip when subsampling suffix array | An FM Index file, with FM-Index components seperated by > and appropriate headers as shown in the example output. | [abracadabra.fm](/Example_Files/abracadabra.fm)|
 | Day 5 part 2: FM Index Search | input .fm, input .qfa | [abracadabra.fm](/Example_Files/abracadabra.fm) and [abracadabra.qfa](Example_Files/abracadabra.qfa) | a tab-delimited file where each row contains query name and alignment location, multiple rows for the same query matching multiple locations | [abracadabra.aln](/Example_Files/abracadabra.aln) | 
+
+
+## Datasets
+
+|     |     |
+| :---: | --- |
+| Small | [small.fa]<br>[small_reads.fa]<br>[small.aln] |
+| Human Chromosome 22 | [chr22.fa]<br>[chr22_reads.fa]<br>[chr22.aln] |
+| Human Reference Chromosome<br>(GRCh38) | [genome.fa]<br>[genome_reads.fa]<br>[genome.aln] |
+
+
+
+[small.fa]:        /Example_Files/small.fa
+[small_reads.fa]:  /Example_Files/small_reads.fa
+[small.aln]:       /Example_Files/small.aln
+[chr22.fa]:        https://cloud.biohpc.swmed.edu/index.php/s/HBnzJPfoK46HWrX/download/chr22.fa
+[chr22_reads.fa]:  https://cloud.biohpc.swmed.edu/index.php/s/RJmjzzwzi9My2Am/download/chr22_reads.fa
+[chr22.aln]:       https://cloud.biohpc.swmed.edu/index.php/s/k7YjgzJ8LLDyqWa/download/chr22.aln
+[genome.fa]:       https://cloud.biohpc.swmed.edu/index.php/s/SsnLjF92scW6FXH/download/genome.fa
+[genome_reads.fa]: https://cloud.biohpc.swmed.edu/index.php/s/sZWTFtLyD7J7TGx/download/genome_reads.fa
+[genome.aln]:      https://cloud.biohpc.swmed.edu/index.php/s/n4kgZJpcLjry7aj/download/genome.aln
