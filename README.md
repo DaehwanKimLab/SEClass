@@ -60,15 +60,15 @@ The deadline for submitting a programming assignment for Day 1 is Day 2 at 9am. 
 The deadlines for submitting code review assignments for Day 2, Day 3, Day 4, and Day 5 are Day 3 at 9am, Day 4 at 9am, Day 5 at 9am, and Day 5 at 10pm.
 
 ## Output Formats
-The output file formats are described as follows (to be filled by Micah).
+The output file formats are described as follows.
 
 For each day we will assess the correctness of the output of the code.  Please produce codes which write 
 the results of the computation to a file on disk according to each of the following: 
 
-| | Input Format Description | Input Format Example | Output Format Description | Output Format Example | 
-| ----------- | ---------- | ----------- | ----------- | -------- | 
-| Day 1: SA Impl. | Input .fa file, single sequence multi-line, > for header | [abracadabra.fa](/Example_Files/abracadabra.fa) | A list of integers in txt format (label .sa) | [abracadabra.sa](/Example_Files/abracadabra.sa) |
-| Day 2: SA Search | Input .fa reference file (or input .sa from Day 1), and Multi-line query fasta file (labeled .qfa) | [abracadabra.fa](/Example_Files/abracadabra.fa) (or [abracadabra.sa](/Example_Files/abracadabra.sa)) and [abracadabra.qfa](/Example_Files/abracadabra.qfa)| A tab-delimited file where each row contains query name and alignment location, multiple rows for the same query matching multiple locations. No entries for queries that don't align | [abracadabra.aln](/Example_Files/abracadabra.aln) |
+| | Input Format Description | Input Format Example | Output Format Description | Output Format Example | Command Example | 
+| ----------- | ---------- | ----------- | ----------- | -------- | -------- | 
+| Day 1: SA Impl. | Input .fa file, single sequence multi-line, > for header | [abracadabra.fa](/Example_Files/abracadabra.fa) | A list of integers in txt format (label .sa) | [abracadabra.sa](/Example_Files/abracadabra.sa) | <your_program_name> sample.fa |
+| Day 2: SA Search | Input .fa reference file (or input .sa from Day 1), and Multi-line query fasta file (labeled .qfa) | [abracadabra.fa](/Example_Files/abracadabra.fa) (or [abracadabra.sa](/Example_Files/abracadabra.sa)) and [abracadabra.qfa](/Example_Files/abracadabra.qfa)| A tab-delimited file where each row contains query name and alignment location, multiple rows for the same query matching multiple locations. No entries for queries that don't align | [abracadabra.aln](/Example_Files/abracadabra.aln) | <your_program_name> sample.sa sample.qfa > sample.aln |
 | Day 3: BWT Impl. | Input .fa reference file, input suffix array .sa | [abracadabra.fa](/Example_Files/abracadabra.fa) and [abracadabra.sa](/Example_Files/abracadabra.sa) | text file containing burrows-wheeler transform text (with or without extra character) named .bwt | [abracadabra.bwt](/Example_Files/abracadabra.bwt) |
 | Day 4: BWT Search | Input .bwt, input .sa, and queries file (.qfa) | [abracadabra.bwt](/Example_Files/abracadabra.bwt) and [abracadabra.sa](/Example_Files/abracadabra.sa) and [abracadabra.qfa](/Example_Files/abracadabra.qfa) | A tab-delimited file where each row contains query name and alignment location, multiple rows for the same query matching multiple locations. |[abracadabra.aln](/Example_Files/abracadabra.aln)  | 
 | Day 5 part 1: FM Index Impl. | Input .bwt, input .sa | [abracadabra.bwt](/Example_Files/abracadabra.bwt) and [abracadabra.sa](/Example_Files/abracadabra.sa) and commandline options for (1) number of rows to skip in checkpointed tally matrix and (2) number of values to skip when subsampling suffix array | An FM Index file, with FM-Index components seperated by > and appropriate headers as shown in the example output. | [abracadabra.fm](/Example_Files/abracadabra.fm)|
