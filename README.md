@@ -76,13 +76,20 @@ the results of the computation to a file on disk according to each of the follow
 
 
 ## Datasets
+Each dataset contains a reference sequence, reads, and a position of read in the reference. Student may use the Human Reference Genome to do optional assignment. When you test your program with chr22_reads.fa and genome_reads.fa, you can use a subset of reads, for example, first 1000 reads. But when you test a peformance of your program, we recommend to use whole reads.  
 
-|     |     |
-| :---: | --- |
-| Small | [small.fa]<br>[small_reads.fa]<br>[small.aln] |
-| Human Chromosome 22 | [chr22.fa]<br>[chr22_reads.fa]<br>[chr22.aln] |
-| Human Reference Chromosome<br>(GRCh38) | [genome.fa]<br>[genome_reads.fa]<br>[genome.aln] |
-
+- Small  
+   - Reference: 100bp sequence [small.fa]
+   - Reads: 10 10bp reads [small_reads.fa]
+   - Read positions: [small.aln]
+- Human Chromosome 22
+   - Reference: [chr22.fa]
+   - Reads: 1Million 100bp reads [chr22_reads.fa]
+   - Read positions: [chr22.aln] 
+- Human Reference Genome
+   - Reference: [genome.fa]
+   - Reads: 1Million 100bp reads [genome_reads.fa]
+   - Read positions: [genome.aln]
 
 
 [small.fa]:        /Example_Files/small.fa
