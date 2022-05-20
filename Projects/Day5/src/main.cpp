@@ -1,13 +1,12 @@
+
 #include <iostream>
 
-// add your code
-
-
+// insert code here...
 
 int main(int argc, char* argv[])
 {
-    // add your code 
-    std::cout << "Hello World" << std::endl;
+    // insert code here...
+    std::cout << "Hello, World!" << std::endl;
 
     return 0;
 }
