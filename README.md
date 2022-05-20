@@ -102,4 +102,37 @@ Each dataset contains a reference sequence, reads, and a position of read in the
 [genome.aln]:      https://cloud.biohpc.swmed.edu/index.php/s/n4kgZJpcLjry7aj/download/genome.aln
 
 ## Setting up environments
+We recommend using a laptop/desktop rather than the biohpc client.
 
+### Linux
+
+1. Install gcc/g++ compiler
+   - Ubuntu
+   ```sh
+   sudo apt install build-essential
+   ```
+   - CentOS
+   ```sh
+   sudo yum group install "Development Tools"
+   ```
+   
+1. Download CLion package. This package includes an evaluation license key for a free 30-day trial.  
+   CLion - [Download](https://download.jetbrains.com/cpp/CLion-2022.1.1.tar.gz)  
+1. Unpack the package
+   ```sh
+   tar zxvf CLion-2022.1.1.tar.gz
+   ```
+1. Run CLion.sh from the bin subdirectory
+1. Open your project directory (`Day1`, `Day2`, ...)
+
+
+----
+### Windows
+Visual Studio 2022 Community - [Download](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022&source=VSLandingPage&includeRecommended=true&cid=2030)
+1. Open a solution file in the project directory(`Day1.sln`, `Day2.sln`, ...)
+
+
+----
+### MacOS
+Xcode - [Download](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
+1. Open a xcode project in the project directory(`Day1.xcodeproj`, `Day2.xcodeproj`, ...)
