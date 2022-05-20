@@ -1,1 +1,6 @@
 .vs
+.DS_Store
+**/project.xcworkspace
+**/xcuserdata
+**/xcshareddata
+*.dSYM
