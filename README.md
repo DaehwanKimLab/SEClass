@@ -7,7 +7,7 @@ Teaching assistants: Chanhee Park (Chanhee.Park@UTSouthwestern.edu) and Micah Th
 
 The class meets at 9am from May 23rd (Day 1) through May 27th (Day 5) in ND11.218.
 
-Office hours will be 2 - 4pm on each of Days 1-5 in E4.350.
+Office hours will be 2 - 4pm on each of Days 1-5 in ND11.218.
 
 
 This course provides hands-on practice with C++ programming for implementing DNA sequence alignment. You will design and implement memory-efficient data structures and rapid algorithms for suffix arrays, Burrows-Wheeler transforms (BWT), and Ferragina-Manzini (FM) indexes. As in the previous weeks, it is important for you to write code in a modular and easy-to-maintain fashion. You are encouraged to provide documentation in the form of comments along with your code so that other future developers can understand and extend it further. You will be expected to write code so that your code will live forever.
