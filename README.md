@@ -5,12 +5,19 @@ Instructor: Daehwan Kim (Daehwan.Kim@UTSouthwestern.edu)
 
 Teaching assistant: Chanhee Park (Chanhee.Park@UTSouthwestern.edu)
 
-The class meets at 9am from May 6th (Day 1) through May 10th (Day 5) in ND5.218.
+The class meets at 9am from May 6th (Day 1) through May 10th (Day 5) in the following rooms.
+
+| ----------- | ---------- | 
+| May 6th (Day 1) | ND5.218 | 
+| May 7th (Day 2) | NL3.120 | 
+| May 8th (Day 3) | To be determined | 
+| May 9th (Day 4) | NL3.120 | 
+| May 10th (Day 5) | ND5.218 | 
 
 Office hours will be 2 - 4pm on each of Days 1-5 in J9.120A.
 
 
-This course provides hands-on practice with C++ programming for implementing DNA sequence alignment. You will design and implement memory-efficient data structures and rapid algorithms for suffix arrays, Burrows-Wheeler transforms (BWT), and Ferragina-Manzini (FM) indexes. As in the previous weeks, it is important for you to write code in a modular and easy-to-maintain fashion. You are encouraged to provide documentation in the form of comments along with your code so that other future developers can understand and extend it further. You will be expected to write code so that your code will live forever.
+This course provides hands-on practice with C++ programming for implementing DNA sequence alignment. You will design and implement memory-efficient data structures and rapid algorithms for suffix arrays, Burrows-Wheeler transforms (BWT), and Ferragina-Manzini (FM) indexes. Tt is important for you to write code in a modular and easy-to-maintain fashion. You are encouraged to provide documentation in the form of comments along with your code so that other future developers can understand and extend it further. You will be expected to write code so that your code will live forever.
 
 
 Prerequisites: 
