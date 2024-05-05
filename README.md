@@ -7,6 +7,7 @@ Teaching assistant: Chanhee Park (Chanhee.Park@UTSouthwestern.edu)
 
 The class meets at 9am from May 6th (Day 1) through May 10th (Day 5) in the following rooms.
 
+| Day | Classroom |
 | ----------- | ---------- | 
 | May 6th (Day 1) | ND5.218 | 
 | May 7th (Day 2) | NL3.120 | 
