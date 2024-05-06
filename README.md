@@ -11,7 +11,7 @@ The class meets at 9am from May 6th (Day 1) through May 10th (Day 5) in the foll
 | ----------- | ---------- | 
 | May 6th (Day 1) | ND5.218 | 
 | May 7th (Day 2) | NL3.120 | 
-| May 8th (Day 3) | To be determined | 
+| May 8th (Day 3) | ND5.218 | 
 | May 9th (Day 4) | NL3.120 | 
 | May 10th (Day 5) | ND5.218 | 
 
